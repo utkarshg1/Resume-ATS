@@ -43,7 +43,7 @@ def input_pdf_setup(uploaded_file):
     
 # Streamlit app
 st.set_page_config(page_title="ATS Resume - Utkarsh Gaikwad")
-st.header("ATS Resume")
+st.header("ATS Resume - Utkarsh Gaikwad")
 input_text = st.text_area("Job Description : ", key="input")
 uploaded_file = st.file_uploader("Upload your resume (PDF)...", type=["pdf"])
 
