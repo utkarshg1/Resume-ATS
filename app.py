@@ -21,7 +21,7 @@ def input_pdf_setup(uploaded_file):
 
     if uploaded_file is not None:
         # Convert pdf to image
-        images = pdf2image.convert_from_bytes(uploaded_file.read(),poppler_path="poppler-23.11.0/Library/bin")
+        images = pdf2image.convert_from_bytes(uploaded_file.read(), poppler_path="poppler-23.11.0/Library/bin")
 
         first_page = images[0]
 
