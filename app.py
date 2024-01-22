@@ -81,18 +81,3 @@ elif submit2:
         st.write(response)
     else:
         st.write("Please upload a pdf file of your resume.")
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
