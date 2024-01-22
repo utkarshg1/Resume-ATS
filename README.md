@@ -19,6 +19,5 @@ streamlit run app.py
 # Resume matching percentage after pressing button percentage match
 ![Percentage Match](./UI/Percentage%20Match.jpg)
 
-# Apart from requirements above project requires poppler installed in the windows machine
+# Poppler Latest Relases link by @oschwartz10612
 [Poppler download link](https://github.com/oschwartz10612/poppler-windows/releases/)
-### Make sure to download release zip file from above and provide poppler path bin folder
